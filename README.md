@@ -47,8 +47,7 @@ Please make sure to update tests as appropriate.
 
 ## Get in touch
 
-[leandrocfe@gmail.com](mailto:leandrocfe@gmail.com)
-
-[leandroferreira.dev.br](https://leandroferreira.dev.br)
+-   Email: [leandrocfe@gmail.com](mailto:leandrocfe@gmail.com)
+-   Site: [leandroferreira.dev.br](https://leandroferreira.dev.br)
 
 I hope you enjoy it 😀!
