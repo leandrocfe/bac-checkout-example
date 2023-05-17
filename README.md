@@ -2,7 +2,7 @@
 
 Repositório utilizado na live do Beer and Code [ Dominando o Filament, com Leandro Ferreira | Live Code #001](https://www.youtube.com/watch?v=B2HL572A3f0)
 
-[![Dominando o Filament, com Leandro Ferreira](https://img.youtube.com/vi/B2HL572A3f0/2.jpg)](https://www.youtube.com/watch?v=B2HL572A3f0)
+[![Dominando o Filament, com Leandro Ferreira](https://raw.githubusercontent.com/leandrocfe/bac-checkout-example/master/screenshots/live.png)](https://www.youtube.com/watch?v=B2HL572A3f0)
 
 ## Installation
 
@@ -44,5 +44,10 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Get in touch
+
+[leandrocfe@gmail.com](mailto:leandrocfe@gmail.com)
+[leandroferreira.dev.br](https://leandroferreira.dev.br)
 
 I hope you enjoy it 😀!
