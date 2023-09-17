@@ -13,16 +13,16 @@
 
                         <div class="flex flex-col flex-1 ml-4">
                             <div>
-                                <div class="flex justify-between text-base font-medium text-gray-900 dark:text-white">
+                                <div class="flex justify-between text-base font-medium text-gray-900">
                                     <h3>
                                         <a href="#">Throwback Hip Bag</a>
                                     </h3>
                                     <p class="ml-4">$90.00</p>
                                 </div>
-                                <p class="mt-1 text-sm text-gray-500 dark:text-gray-300">Salmon</p>
+                                <p class="mt-1 text-sm text-gray-500">Salmon</p>
                             </div>
                             <div class="flex items-end justify-between flex-1 text-sm">
-                                <p class="text-gray-500 dark:text-gray-300">Qty 1</p>
+                                <p class="text-gray-500">Qty 1</p>
 
                                 <div class="flex">
                                     <button type="button"
@@ -40,16 +40,16 @@
 
                         <div class="flex flex-col flex-1 ml-4">
                             <div>
-                                <div class="flex justify-between text-base font-medium text-gray-900 dark:text-white">
+                                <div class="flex justify-between text-base font-medium text-gray-900">
                                     <h3>
                                         <a href="#">Medium Stuff Satchel</a>
                                     </h3>
                                     <p class="ml-4">$32.00</p>
                                 </div>
-                                <p class="mt-1 text-sm text-gray-500 dark:text-gray-300">Blue</p>
+                                <p class="mt-1 text-sm text-gray-500">Blue</p>
                             </div>
                             <div class="flex items-end justify-between flex-1 text-sm">
-                                <p class="text-gray-500 dark:text-gray-300">Qty 1</p>
+                                <p class="text-gray-500">Qty 1</p>
 
                                 <div class="flex">
                                     <button type="button"
@@ -66,11 +66,11 @@
         </div>
 
         <div class="px-4 py-6 border-t border-gray-200 sm:px-6">
-            <div class="flex justify-between text-base font-medium text-gray-900 dark:text-white">
+            <div class="flex justify-between text-base font-medium text-gray-900">
                 <p>Subtotal</p>
                 <p>$262.00</p>
             </div>
-            <p class="mt-0.5 text-sm text-gray-500 dark:text-gray-300">Shipping and taxes calculated at checkout.
+            <p class="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.
             </p>
             <div class="mt-6">
                 <button type="button" wire:click='checkout'
@@ -78,7 +78,7 @@
                     Checkout
                 </button>
             </div>
-            <div class="flex justify-center mt-6 text-sm text-center text-gray-500 dark:text-gray-300">
+            <div class="flex justify-center mt-6 text-sm text-center text-gray-500">
                 <p>
                     or
                     <button type="button" class="font-medium text-primary-600 hover:text-primary-500">

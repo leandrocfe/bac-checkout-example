@@ -1,41 +1,34 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
-const colors = require("tailwindcss/colors");
+import defaultTheme from 'tailwindcss/defaultTheme';
+import forms from '@tailwindcss/forms';
+import colors from 'tailwindcss/colors' ;
+import typography from '@tailwindcss/typography' ;
 
-module.exports = {
-    darkMode: "class",
+/** @type {import('tailwindcss').Config} */
+export default {
+    content: [
+        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+        './storage/framework/views/*.php',
+        './resources/views/**/*.blade.php',
+        './resources/**/*.blade.php',
+        './vendor/filament/**/*.blade.php',
+    ],
+
     theme: {
         extend: {
-            fontFamily: {
-                sans: ["Inter var", ...defaultTheme.fontFamily.sans],
-            },
-            colors: {
+            colors: { 
                 danger: colors.rose,
                 primary: colors.blue,
                 success: colors.green,
                 warning: colors.yellow,
+            }, 
+            fontFamily: {
+                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
         },
     },
-    variants: {
-        extend: {
-            backgroundColor: ["active"],
-        },
-    },
-    content: [
-        "./app/**/*.php",
-        "./resources/**/*.html",
-        "./resources/**/*.js",
-        "./resources/**/*.jsx",
-        "./resources/**/*.ts",
-        "./resources/**/*.tsx",
-        "./resources/**/*.php",
-        "./resources/**/*.vue",
-        "./resources/**/*.twig",
-        "./resources/**/*.blade.php",
-        "./vendor/filament/**/*.blade.php",
-    ],
+
     plugins: [
-        require("@tailwindcss/forms"),
-        require("@tailwindcss/typography"),
+        forms,
+        typography,
     ],
 };
